@@ -12,6 +12,8 @@
 		11BB17CC1E860194009D4077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BB17CA1E860194009D4077 /* Main.storyboard */; };
 		11BB17CE1E860194009D4077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BB17CD1E860194009D4077 /* Assets.xcassets */; };
 		11BB17D11E860194009D4077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BB17CF1E860194009D4077 /* LaunchScreen.storyboard */; };
+		11BB17D91E86029A009D4077 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB17D81E86029A009D4077 /* CameraPreviewView.swift */; };
+		11BB17DB1E871387009D4077 /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB17DA1E871387009D4077 /* PhotoCaptureDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		11BB17CD1E860194009D4077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11BB17D01E860194009D4077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11BB17D21E860194009D4077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11BB17D81E86029A009D4077 /* CameraPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		11BB17DA1E871387009D4077 /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				11BB17C61E860194009D4077 /* AppDelegate.swift */,
 				11BB17C81E860194009D4077 /* ViewController.swift */,
+				11BB17D81E86029A009D4077 /* CameraPreviewView.swift */,
+				11BB17DA1E871387009D4077 /* PhotoCaptureDelegate.swift */,
 				11BB17CA1E860194009D4077 /* Main.storyboard */,
 				11BB17CD1E860194009D4077 /* Assets.xcassets */,
 				11BB17CF1E860194009D4077 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			files = (
 				11BB17C91E860194009D4077 /* ViewController.swift in Sources */,
 				11BB17C71E860194009D4077 /* AppDelegate.swift in Sources */,
+				11BB17DB1E871387009D4077 /* PhotoCaptureDelegate.swift in Sources */,
+				11BB17D91E86029A009D4077 /* CameraPreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
